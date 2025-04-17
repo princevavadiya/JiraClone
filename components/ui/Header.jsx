@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Button } from './button'
 import { PenBox } from 'lucide-react'
-import UserMenu from './user-menu'
+import UserMenu from './User-menu'
 import { checkUser } from '@/lib/checkUser'
 import UserLoading from './user-loading'
 
