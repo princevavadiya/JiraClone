@@ -90,7 +90,7 @@ export default function Home() {
             />
           </span>
         </h1>
-        <p className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto">
+        <p className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto text-transparent bg-clip-text font-extrabold bg-gradient-to-t from-blue-600 to-sky-500/10 p-2">
           Empower your team with our intuitive project management solution.
         </p>
         <p className="text-xl mb-12 max-w-2xl mx-auto"></p>
@@ -109,7 +109,7 @@ export default function Home() {
       {/* Features Section */}
       <section id="features" className="bg-gray-900 py-20 px-5">
         <div className="container mx-auto">
-          <h3 className="text-3xl font-bold mb-12 text-center">Key Features</h3>
+          <h3 className="text-3xl font-bold mb-12 text-center  text-transparent bg-clip-text font-extrabold bg-gradient-to-r from-blue-300 to-sky-500/10 p-2">Key Features</h3>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {features.map((feature, index) => (
               <Card key={index} className="bg-gray-800">
@@ -129,7 +129,7 @@ export default function Home() {
       {/* Companies Carousel */}
       <section className="py-20">
         <div className="container mx-auto">
-          <h3 className="text-3xl font-bold mb-12 text-center">
+          <h3 className="text-3xl font-bold mb-12 text-center text-transparent bg-clip-text font-extrabold bg-gradient-to-r  from-pink-400 from-40% to-fuchsia-700">
             Trusted by Industry Leaders
           </h3>
           <CompanyCarousel />
@@ -139,7 +139,7 @@ export default function Home() {
       {/* FAQ Section */}
       <section className="bg-gray-900 py-20 px-5">
         <div className="container mx-auto">
-          <h3 className="text-3xl font-bold mb-12 text-center">
+          <h3 className="text-3xl font-bold mb-12 text-center text-transparent bg-clip-text font-extrabold bg-conic/decreasing from-violet-700 via-lime-300 to-violet-700">
             Frequently Asked Questions
           </h3>
           <Accordion type="single" collapsible className="w-full">
