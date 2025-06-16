@@ -156,7 +156,7 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-20 text-center px-5">
         <div className="container mx-auto">
-          <h3 className="text-3xl font-bold mb-6">
+          <h3 className="text-3xl font-bold mb-6 text-transparent bg-clip-text font-extrabold bg-conic/decreasing from-violet-700 via-lime-300 to-violet-700">
             Ready to Transform Your Workflow?
           </h3>
           <p className="text-xl mb-12">
